@@ -1,5 +1,7 @@
 * {
   background-color: aliceblue;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 body {
   display: flex;
@@ -29,15 +31,17 @@ h1 {
   margin: 10px;
   padding: 10px;
 }
+h2 {
+  margin: auto;
+  padding: auto;
+}
 #input,
 #output {
   height: 3vh;
-  margin: 2px;
-  padding: 2px;
   width: 25vh;
+  margin: auto;
+  padding: auto;
   border: 1px 0cap;
-  margin: 1px;
-  padding: 1px;
   background-color: transparent;
 }
 p {
@@ -47,12 +51,21 @@ p {
 .btn {
   height: 3vh;
   width: 7vh;
-  margin: 1px;
-  padding: 1px;
+  margin: 1vh;
+  padding: 1vh;
   border: none;
   margin: 1px;
-  color: wheat;
-  background-color: crimson;
+  color: rgb(12, 12, 11);
+  background-color: rgb(82, 206, 34);
   padding: 1px;
   border-radius: 50px;
+}
+
+.btn:hover {
+  color: crimson;
+  background-color: aquamarine;
+}
+.btn-div {
+  margin: auto;
+  padding: auto;
 }

@@ -1,0 +1,49 @@
+* {
+  background-color: aliceblue;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  background-color: transparent;
+}
+.output {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 10vh;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+#input,
+#output {
+  height: 3vh;
+  margin: 2px;
+  padding: 2px;
+  width: 25vh;
+  border: 1px 0cap;
+  margin: 1px;
+  padding: 1px;
+  background-color: transparent;
+}
+p {
+  background-color: transparent;
+}
+
+.btn {
+  height: 3vh;
+  width: 7vh;
+  margin: 1px;
+  padding: 1px;
+  border: none;
+  margin: 1px;
+  color: wheat;
+  background-color: crimson;
+  padding: 1px;
+  border-radius: 50px;
+}

@@ -11,4 +11,7 @@ function speedConverter() {
     unit == "mph" ? speedkmph(modified_input) : speedmph(modified_input);
 
   document.getElementById("output").innerHTML = result.toFixed(3) + output_unit;
+  document.getElementById("clear").addEventListener("click", function () {
+    document.getElementById("input").value = "";
+  });
 }

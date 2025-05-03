@@ -20,6 +20,15 @@ h2 {
   align-items: flex-start;
   box-sizing: border-box;
 }
+header {
+  background-color: burlywood;
+  width: 200vh;
+}
+h1 {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+}
 #input,
 #output {
   height: 3vh;
